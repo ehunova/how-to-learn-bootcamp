@@ -73,6 +73,52 @@
   right: 0;
 }
 
+/* description section */
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: #000;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 30px 0;
+}
+
+.two-columns__paragraph:last-of-type {
+  padding: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 /* Feynman section */
 
 .feynman {
