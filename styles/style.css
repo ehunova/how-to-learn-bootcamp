@@ -178,6 +178,15 @@
   padding: 20px 0 0;
 }
 
+/* Oakley section */
+.oakley {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  color: #000;
+}
+
 /* Feynman section */
 .feynman {
   display: flex;
