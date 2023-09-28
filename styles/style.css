@@ -120,6 +120,60 @@
   font-weight: 600;
 }
 
+/* techniques section */
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 100px 0 0;
+  color: #000;
+  width: 80%;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 920px;
+  box-sizing: content-box;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 60px 100px 0 0;
+  text-align: center;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin: 60px 0 0;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 40px 43px 40px;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 16px 0 0;
+}
+
 /* Digits section */
 .digits {
   display: flex;
