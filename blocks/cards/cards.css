@@ -4,4 +4,8 @@
   flex-wrap: wrap;
   width: 920px;
   box-sizing: content-box;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
