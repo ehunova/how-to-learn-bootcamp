@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   width: 920px;
   box-sizing: content-box;
+  column-gap: 100px;
 
   list-style-type: none;
   margin: 0;
